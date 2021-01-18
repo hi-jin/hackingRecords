@@ -8,3 +8,7 @@ things to consider to find the entry point
 ### SystemHacking
 1. 함수에 입력된 인자들을 분석할 떄, 함수의 본 의도대로 인자들을 제대로 사용했는지 확인하기.
   (ex. scanf(%d, var1) || scanf(%d, &var1)      -from pwnable.kr passcode)
+
+2. random값은 진짜 random이 아닐 수도 있다.
+
+3. a xor b == c   =>   b xor c == a (아닐 수도 있긴한데 일단은 이런듯?)
