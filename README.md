@@ -12,3 +12,5 @@ things to consider to find the entry point
 2. random값은 진짜 random이 아닐 수도 있다.
 
 3. a xor b == c   =>   b xor c == a (아닐 수도 있긴한데 일단은 이런듯?)
+
+4. stderr도 pwntools로 직접 입력할 수 있다.
